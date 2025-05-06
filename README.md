@@ -21,15 +21,15 @@
       - Adding users to roles
       - Managing user claims, tokens, lockouts, etc.
   - **Common Methods:**
-        - `CreateAsync(user, password)`   -->  Creates a new user with a password
-        - `FindByNameAsync("username")`   -->  Finds a user by username
-        - `CheckPasswordAsync(user, "password")`   --> Verifies a password against stored hash
-        - `AddToRoleAsync(user, "role")`   -->  Assigns the user to a role
-        - `RemoveFromRoleAsync(user, "role")	`  --> Removes the user from a role
-        - `GetRolesAsync(user)	`  --> Retrieves the roles assigned to the user
-        - `GenerateEmailConfirmationTokenAsync(user)`   -->  Creates a token for confirming the user's email
-        - `IsEmailConfirmedAsync(user)`   -->  Checks if the email is confirmed
-        - `ResetPasswordAsync(user, token, newPwd)`  --> Resets the user’s password using a token
+   - `CreateAsync(user, password)`   -->  Creates a new user with a password
+   - `FindByNameAsync("username")`   -->  Finds a user by username
+   - `CheckPasswordAsync(user, "password")`   --> Verifies a password against stored hash
+   - `AddToRoleAsync(user, "role")`   -->  Assigns the user to a role
+   - `RemoveFromRoleAsync(user, "role")	`  --> Removes the user from a role
+   - `GetRolesAsync(user)	`  --> Retrieves the roles assigned to the user
+   - `GenerateEmailConfirmationTokenAsync(user)`   -->  Creates a token for confirming the user's email
+   - `IsEmailConfirmedAsync(user)`   -->  Checks if the email is confirmed
+   - `ResetPasswordAsync(user, token, newPwd)`  --> Resets the user’s password using a token
             
     - **Example:**
         ```
