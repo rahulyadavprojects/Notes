@@ -58,6 +58,24 @@
       - `FindByNameAsync("RoleName")`   --> Gets role by name
       - `AddClaimAsync(role, claim)`    --> Adds a claim to a role
       - `RemoveClaimAsync(role, claim)`   --> Removes a claim from a role
+    
+  ## Constructor injection (where you receive the parameter) and Base constructor chaining (where your parent class receives the parameter)
+   ### A. Constructor Injection (You handle it yourself):
+   -     ```
+          public class Dog
+          {
+              public string Name { get; }
+          
+              public Dog(string name) // ← YOU receive the value here
+              {
+                  Name = name;
+                  Console.WriteLine($"Dog created with name: {Name}");
+              }
+          }
+
+         ```
+        
+
 
 
  
