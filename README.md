@@ -74,6 +74,7 @@
           }
 
          ```
+     -
          ```
            var dog = new Dog("Charlie");
             // Output: Dog created with name: Charlie
@@ -94,6 +95,7 @@
 
          ```
      #### Dog class (child)
+     -
          ```
                public class Dog : Animal
           {
