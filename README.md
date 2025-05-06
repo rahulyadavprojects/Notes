@@ -20,7 +20,7 @@
       - Validating passwords
       - Adding users to roles
       - Managing user claims, tokens, lockouts, etc.
-    - **Common Methods:**
+  - **Common Methods:**
         - `CreateAsync(user, password)`   -->  Creates a new user with a password
         - `FindByNameAsync("username")`   -->  Finds a user by username
         - `CheckPasswordAsync(user, "password")`   --> Verifies a password against stored hash
