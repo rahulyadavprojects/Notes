@@ -74,7 +74,37 @@
           }
 
          ```
-        
+         ```
+           var dog = new Dog("Charlie");
+            // Output: Dog created with name: Charlie
+
+         ```
+     ###  B. Base Class Constructor Chaining (Pass it to your Parent)
+         ```
+             public class Animal
+          {
+              public string Name { get; }
+          
+              public Animal(string name)
+              {
+                  Name = name;
+                  Console.WriteLine($"Animal created with name: {Name}");
+              }
+          }
+
+         ```
+     #### Dog class (child)
+         ```
+               public class Dog : Animal
+          {
+              public Dog(string name) : base(name) // ← pass to parent (Animal)
+              {
+                  // No logic here; we just call the parent constructor
+              }
+          }
+
+          ```
+
 
 
 
