@@ -59,7 +59,8 @@
       - `AddClaimAsync(role, claim)`    --> Adds a claim to a role
       - `RemoveClaimAsync(role, claim)`   --> Removes a claim from a role
     
-  ## Constructor injection (where you receive the parameter) and Base constructor chaining (where your parent class receives the parameter)
+  ## Constructor injection (where you receive the parameter) and Base constructor chaining (where your parent class receives the parameter):
+  - There are two ways of using constructors in C#
    ### A. Constructor Injection (You handle it yourself):
   -    
         ```
