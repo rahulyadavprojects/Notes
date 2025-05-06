@@ -61,8 +61,8 @@
     
   ## Constructor injection (where you receive the parameter) and Base constructor chaining (where your parent class receives the parameter)
    ### A. Constructor Injection (You handle it yourself):
-   -
         ```
+     -
           public class Dog
           {
               public string Name { get; }
