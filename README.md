@@ -13,7 +13,7 @@
     ```
   ### IdentityRole : 
    - Represents a role in the system (e.g., Admin, User, Moderator).
-  ### UserManager<TUser> : 
+  ### UserManager <TUser> : 
    - A service that provides high-level APIs to manage users of type TUser (typically IdentityUser or a derived class like ApplicationUser).
    - **Used for:**
       - Creating users
