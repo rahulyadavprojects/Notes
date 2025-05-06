@@ -104,6 +104,11 @@
           }
 
           ```
+          ```
+               var dog = new Dog("Charlie");
+          // Output: Animal created with name: Charlie
+
+         ```
 
 
 
