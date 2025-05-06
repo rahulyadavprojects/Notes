@@ -13,7 +13,7 @@
     ```
   ### IdentityRole : 
    - Represents a role in the system (e.g., Admin, User, Moderator).
-  ### UserManager'<TUser> : 
+  ### `UserManager<TUser>` : 
    - A service that provides high-level APIs to manage users of type TUser (typically IdentityUser or a derived class like ApplicationUser).
    - **Used for:**
       - Creating users
@@ -38,11 +38,11 @@
         ```
     
 
-  ### UserRole (usually IdentityUserRole<TKey>):
+  ### UserRole (usually `IdentityUserRole<TKey>`):
   - A join table that maps users to roles.
   - Used internally by Identity to connect IdentityUser and IdentityRole.
   - You typically don’t use this directly unless customizing the identity schema.
-  ### RoleManager<TRole> : 
+  ### `RoleManager<TRole>` : 
    - A service class in ASP.NET Core Identity used to manage roles.
    - The generic type TRole is typically IdentityRole or a custom class derived from it.
    - **What it's used for:**
